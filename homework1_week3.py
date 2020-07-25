@@ -10,7 +10,7 @@ soup = BeautifulSoup(data.text, 'html.parser')
 trs = soup.select('#body-content > div.newest-list > div > table > tbody > tr')
 
 for tr in trs:
-    rank = tr.select_one('td.number').text[0:2].strip()
-    title = tr.select_one('a.title').text.strip()
-    artist = tr.select_one('a.artist').text
+    rank = tr.select_one('').text[0:2].strip()
+    title = tr.select_one('').text.strip()
+    artist = tr.select_one('').text
     print(rank, title, artist)
