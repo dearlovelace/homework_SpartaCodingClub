@@ -1,4 +1,4 @@
 # homework_SpartaCodingClub
 Homeworks from Sparta Coding Club
 
-Top 50 list from Genie Music
+Week 03: Scrap Top 50 List from Genie Music
